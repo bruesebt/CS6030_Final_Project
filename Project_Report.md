@@ -12,3 +12,9 @@ The problem with the paper is its evaluation of the tool SURF. The study perform
   - Does SURF save me time?
   - Are reviews correctly classified?
   - Does SURF help me better understand user needs?
+
+## Results
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
