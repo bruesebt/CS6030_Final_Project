@@ -1,8 +1,7 @@
 # Project Report
 
-## Brad Bruesewitz
-## Advanced Software Engineering
-## 12/10/2021
+### Brad Bruesewitz | Advanced Software Engineering | 12/10/2021
+
 
 
 # Problem 
