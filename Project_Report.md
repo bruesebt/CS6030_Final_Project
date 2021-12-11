@@ -24,3 +24,29 @@ I completed all the runs of the XML input and manually read through all the revi
 
 
 As you can see, in general my correctness rate was lower in comparison to the results from the experiment in the paper. The only exception would be the "Company" category. I did not agree with all of the misclassifications found in the paper, and there were very few reviews in this category so the few changes led to a drastically different percentage.
+
+In addition to assessing the accuracy of the classification functionality, I wanted to see if the tool would be useful in terms of time saving. However, there were multiple components that I thought were missing from the data in the experiments conducted by the paper. I decided to conduct an experiment of my own as a way to see if SURF would actually save me time as a developer. The experiment conducted in the paper simply used subjective information. Every participant was asked how much time they thought SURF would save them, and this information was displayed in a pie chart as a part of their data collection. However, I believed there was a better way to see how much time was saved. The theory behind SURF is that it eliminates sentences it deems to contain no useful information. The way I see it, is that SURF saves you time since you do not have to read those sentences. An unbiased, objective metric to use to assess SURF saves time or not, is to multiply the number of sentences eliminated by the average time it takes to read through one of the review sentences. The study found this time to be 15 seconds, we will call this "t". The number of sentences we will call "n" giving us the equation for "S" (timed Saved):
+
+- S = t x n
+
+Using this equation, here are the results for time saved by app:
+
+| App                      | Time Saved (minutes) |
+| ------------------------ | -------------------- |
+| Picturex                 | \-5                  |
+| PowernAPP                | 123.5                |
+| CSTP                     | 2.5                  |
+| BLINQ                    | 55.25                |
+| Doodle Pairs             | 0.75                 |
+| Karaoke SingMe Free/Lite | 8.75                 |
+| Karaoke SingMe           | \-6.5                |
+| Minesweeper Reloaded     | 2.5                  |
+| Sheep-O-block            | 4                    |
+| Stone Flood              | 159                  |
+| Weight Track             | \-4.25               |
+| WifiFileTransfer         | 0                    |
+| Video Beta               | \-8.25               |
+| Movie Creator Beta       | 36                   |
+| TrackID Beta             | 36                   |
+| Average                  | 26.95                |
+
